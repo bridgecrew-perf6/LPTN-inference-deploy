@@ -1,3 +1,16 @@
+## Clone of Unofficial Modification of the repo for paper [High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network](https://github.com/csjliang/LPTN) which supports the `Test` model only with pre-trained model already in the repo:
+1. Functional inference (no need to use command line and argparse)
+2. Access Model object and play with it
+3. Make Inference with either the path or the url of image
+4. Directly integrate with any of the API serving frameworks or libraries
+
+# Usage:
+
+1. Clone this repo as: `git clone https://github.com/deshwalmahesh/LPTN-inference-deploy`
+2. Navigate inside the repo using `cd` command
+3. Either open `Tutorial.ipynb` which uses the official repo and the code or access `model_inference.py` to access the model
+
+
 # LPTN
 
 ### [Paper](https://arxiv.org/pdf/2105.09188.pdf) |   [Supplementary Material](http://www4.comp.polyu.edu.hk/~cslzhang/paper/LPTN-cvpr21-supp.pdf) |   [Poster](http://liangjie.xyz/LjHomepageFiles/paper_files/poster_LPTN.pdf)
